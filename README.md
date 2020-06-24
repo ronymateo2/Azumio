@@ -9,3 +9,4 @@ Demo: See [Application Demo](https://ronymateo2.github.io/Azumio/).
 - [x] Responsive design.
 
 ## Decision
+- Flexblox is flexible enough for small layouts
