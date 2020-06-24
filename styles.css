@@ -1,0 +1,113 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #394161;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 100%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 7px;
+  border: 1px solid #c5c5c5;
+  cursor: pointer;
+  text-decoration: none;
+  width: 135px;
+  height: 65px;
+}
+
+.button.primary {
+  background-color: #3e458b;
+  border: 1px solid #4c5cac;
+  cursor: pointer;
+}
+
+.button.primary .label {
+  color: #ffffff;
+}
+
+.button .label {
+  color: #858a9e;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main {
+  margin-top: 25px;
+}
+.main .button {
+  margin-bottom: 20px;
+}
+
+.nav .back {
+  color: #858a9e;
+}
+
+.nav .done {
+  color: #3e458b;
+}
+
+.nav .dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .dot {
+  height: 5px;
+  width: 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.nav .dot.blue {
+  height: 10px;
+  width: 10px;
+  background-color: #3e458b;
+}
